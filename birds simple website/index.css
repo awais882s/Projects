@@ -1,0 +1,204 @@
+/* main body */
+#maindiv{
+  background-color:#25CCF7;
+  width:1000px;
+  height: 1800px;
+  margin-top:0px;
+  margin-left: 150px;
+  border:4px double black;
+  border-radius: 10px;
+ }
+ /* heading control */
+#h1{
+  font-size: 30px;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 50px;
+  display: block;
+}
+ /* large box */
+ .banner{
+   border:2px solid black;
+   height: 90px;
+   margin-top: 50px;
+   margin-right: 20px;
+   margin-left: 20px;
+   background-color:#F8EFBA;
+   border-radius: 12px;
+ }
+
+
+/* small box inside large box */
+
+ .box1{
+   border:1px solid green;
+   margin-bottom:20px;
+   margin-top: 15px;
+   margin-right: 320px;
+   margin-left: 20px;
+   height: 60px;
+   background-color: #26de81;
+   border-radius: 10px;
+ }
+
+ /* inside small items */
+ div > button {
+   display: inline-block;
+   background-color:#45aaf2;
+   margin-top: 6px;
+   margin-left: 10px;
+   border-radius: 2px;
+   padding:15px 25px 15px 25px;
+   border-radius: 20px;
+   color: white;
+   display: inline-block;
+   border-color: #3B3B98;
+   font-weight: bold;
+   font-style: italic;
+   cursor:pointer;
+   text-shadow:4px 3px 3px #FF0000;
+   
+ }
+ .box2{
+   background-color: #00d2d3;
+  height: 60px;
+  width: 240px;
+  border:1px solid tomato;
+  margin-top: 14px;
+  margin-right: 15px;
+  float: right;
+  border-radius: 10px;
+ }
+ /* small two buttons */
+
+ .log1{
+   border-color: #3B3B98;
+   margin-bottom: 2px;
+   font-weight: bold;
+   font-style: italic;
+   cursor: pointer;
+ }
+
+ /* home button hover */
+ #home1:hover{
+   color: #3c40c6;
+   background-color:#ff7f50;
+   transition-duration: 2s;
+ }
+
+ /* log in button hover */
+
+ #sign1:hover{
+ color:#FFC312;
+ background-color: #5f27cd;
+ transition-duration: 2s;
+ }
+
+ /* 3rd center box  */
+ #box3{
+   border:1px solid #2d3436;
+   margin-top: 60px;
+   margin-left: 60px;
+   margin-right: 60px;
+   margin-bottom: 100px;
+   height: 270px;
+   border-radius: 40px;
+   background-color: #8c7ae6;
+ }
+
+ /* circle drwaw*/
+ #c1{
+   background-image:url("https://wl-brightside.cf.tsp.li/resize/728x/jpg/99c/c0b/8ea6aa543bad64ca34bcfeb403.jpg");
+   background-repeat: no-repeat;
+   background-size:300px;
+   border:2px solid #fdcb6e;
+   margin-top: 20px;
+   margin-right: 600px;
+   margin-left: 15px;
+   height: 225px;
+   width: 240px;
+   margin-bottom: 100px;
+   border-radius: 200px;
+ }
+ #c2{
+  background-image:url("https://www.itl.cat/pngfile/big/213-2131395_cute-animals-wallpaper-beautiful-birds-image-hd-download.jpg");
+  background-repeat: no-repeat;
+  background-size:300px;
+  border:2px solid #fdcb6e;
+  margin-top:5px;
+  margin-right:600px;
+  margin-left: 300px;
+  height: 225px;
+  width:250px;
+  border-radius: 220px;
+}
+#c3{
+  background-image:url("https://www.teahub.io/photos/full/214-2146574_beautiful-animals-in-the-world-hd.jpg");
+  background-repeat: no-repeat;
+  background-size:370px;
+  border:2px solid #fdcb6e;
+  margin-top:0px;
+  margin-right:610px;
+  margin-left: 300px;
+  margin-bottom: 30px;
+  height: 230px;
+  width:250px;
+  border-radius: 200px;
+  display: inline-block;
+}
+
+/* headings birds */
+#div1{
+  border: 2px solid black;
+  margin-right: 350px;
+  margin-left:250px;
+  margin-bottom: 70px;
+  padding: 6px 6px 6px 6px;
+  background-image: url("https://i.pinimg.com/originals/8a/f5/7a/8af57ad8a3486981c5f055f285d40861.jpg");
+  border-radius: 60px;
+  background-size:405px;
+  background-repeat:no-repeat;
+}
+/* paragraph 1 */
+
+#p1{
+  font-size:20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+}
+/* another heading */
+#div2{
+  border: 2px solid black;
+  margin-right: 350px;
+  margin-left:250px;
+  margin-bottom:0px;
+  padding: 6px 6px 6px 6px;
+  background-image: url("https://images.pexels.com/photos/40984/animal-ara-macao-beak-bird-40984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  border-radius: 60px;
+  background-size:400px;
+  background-repeat:no-repeat;
+}
+#p2{
+  font-size:20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: inherit;
+}
+/* end wala box text */
+
+#div3{
+  border:1px solid #ff7f50;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-right: 50px;
+  border-radius: 40px;
+}
+#p3{
+  font-size:22px;
+  /* font-family: cursive; */
+  font-style: normal;
+  font-weight: inherit;
+  color:black;
+  background-color: #686de0;
+}
