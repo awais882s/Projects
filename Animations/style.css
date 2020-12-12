@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.maindiv{
+  width: 100%;
+  height: 100vh;
+  background-size:cover;
+  background-image:url("https://i.pinimg.com/originals/96/c5/8d/96c58d23372f5f4b4b7887e7fdb6634e.jpg");
+  background-repeat: no-repeat;
+}
+.rain{
+  height: 100vh;
+  background-image: url("https://pngimg.com/uploads/rain/rain_PNG13468.png");
+  animation: rain .3s linear infinite;
+}
+@keyframes rain
+{
+  from { background-position: 0% 0%;}
+  to {background-position: 20% 100%;}
+}
+https://pngimg.com/uploads/rain/rain_PNG13468.png
